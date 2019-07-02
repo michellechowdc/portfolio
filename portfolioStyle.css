@@ -1,0 +1,110 @@
+/* Michelle Chow title */
+h1 {
+  font-size: 60px;
+  text-align: center;
+  /* color: blue; */
+  /* background-color: white; */
+  padding-bottom: 0;
+}
+
+/* Menu bar */
+div#menu {
+  padding-right: 30px;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+ul li {
+  display: inline;
+  padding: 15px;
+}
+
+/* All */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Right bio */
+p1#bio {
+  float: right;
+  padding: 20px;
+  width: 22%;
+  background-color: lightgrey;
+  margin-right: 40px;
+  margin-top: 70px;
+  /* text-align: center; */
+}
+
+p1#bio h3 {
+  text-align: center;
+}
+
+/* p1#bioText {
+  padding-top: 50px;
+
+} */
+
+/* All Pics */
+.picTitle {
+  /* font-style: italic; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  color: black;
+  margin-top: 0;
+  margin-left: 60px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+  font-size: 35px;
+  color: black;
+  font-weight: normal;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blur {
+  filter: blur(3px);
+
+}
+
+/* Pic 1 */
+/* p2#projects div#picTitle { */
+  /* font-size: 23px; */
+  /* margin-left: 60px;
+  margin-right: 200px; */
+
+
+p2#projects h3 {
+  margin-left: 60px;
+  font-size: 23px;
+  margin-top: 50px;
+}
+
+p2#projects a {
+  margin-left: 60px;
+}
+
+/* p2#projects div {
+  margin-left: 60px;
+} */
